@@ -1,0 +1,671 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html,
+  body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  main {
+    width: 100%;
+    height: auto;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+  header {
+    width: 100%;
+  }
+  #logo img {
+    width: 100px;
+    height: 40px;
+  }
+  #logo {
+    left: 75px;
+    top: 40px;
+  }
+  .nav li {
+    padding: 0px 10px;
+    font-size: 12px;
+  }
+  .nav {
+    margin: 15px 0px 0px 240px;
+  }
+  select {
+    font-size: 12px;
+    position: relative;
+    right: 15px;
+  }
+  .page1 > .image > .travall {
+    width: 540px;
+    height: 564px;
+    left: 225px;
+  }
+  .page1 > .image > .decorepage1 {
+    position: absolute;
+    top: -95px;
+    right: 0;
+    width: 400px;
+  }
+  .page1 > .desc {
+    position: relative;
+    width: 370px;
+    height: 535px;
+    bottom: 550px;
+    left: 100px;
+  }
+  .page1 > .desc > .tag {
+    font-size: 13px;
+    width: 400px;
+    line-height: 30px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+  }
+  .page1 > .desc > .heading {
+    font-size: 45px;
+    line-height: 46px;
+    letter-spacing: -0.04em;
+    width: 350px;
+    position: relative;
+    top: 100px;
+    right: 35px;
+  }
+  .heading img {
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    z-index: 1;
+    width: 220px;
+  }
+  .page1 > .desc > .p {
+    margin-top: 115px;
+    width: 256px;
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+    right: 140px;
+  }
+  .cta {
+    margin-top: 195px;
+    width: 159px;
+    height: 40px;
+    border-radius: 10px 0px 0px 0px;
+    position: absolute;
+    right: 230px;
+  }
+  .cta > button {
+    font-size: 9px;
+    text-align: center;
+    padding: 5px;
+  }
+  .play button {
+    width: 22px;
+    height: 32px;
+    position: relative;
+    bottom: 15px;
+  }
+  .play h5 {
+    position: relative;
+    left: 75px;
+    bottom: 90px;
+    font-size: 12px;
+  }
+  .play img {
+    width: 90px;
+  }
+  .page2 {
+    bottom: 310px;
+    position: relative;
+  }
+  .page2 > .decor {
+    position: relative;
+    left: 500px;
+    top: 200px;
+    width: 153px;
+    height: 166px;
+  }
+  .decor img {
+    width: 153px;
+    height: 166px;
+  }
+  .page2 > .category > h5 {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .page2 > .category > h1 {
+    font-family: "Volkhov";
+    font-size: 35px;
+  }
+  .card img {
+    width: 50px;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 125px;
+  }
+  .card2 {
+    width: 167px;
+    height: 114px;
+    position: relative;
+    z-index: 4;
+    left: 26px;
+    bottom: 11px;
+  }
+  .background {
+    width: 150px;
+    height: 180px;
+    position: relative;
+    top: 45px;
+    right: 30px;
+  }
+  .left-part {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px 0px 10px 0px;
+    position: absolute;
+    left: -45px;
+    bottom: -55px;
+  }
+  .description {
+    width: 100px;
+    font-size: 11px;
+    line-height: 16px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-size: 9px;
+  }
+  .title h1 {
+    position: relative;
+    bottom: 20px;
+    width: 140px;
+    font-size: 10px;
+    margin-top: 30px;
+    right: -12px;
+  }
+  .card-wrapper {
+    width: 45vw;
+    gap: 50px;
+    position: relative;
+    right: 120px;
+    bottom: 60px;
+  }
+  .image2 img {
+    position: relative;
+    bottom: 48px;
+    left: 40px;
+    width: 85px;
+    height: 85px;
+  }
+  .title2 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+  }
+  .description2 {
+    width: 180px;
+    position: absolute;
+    top: 45px;
+    left: -15px;
+    font-size: 9px;
+  }
+  .image3 img {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    bottom: 15px;
+  }
+  .title3 {
+    position: absolute;
+    bottom: 5px;
+  }
+  .description3 {
+    width: 100px;
+    position: absolute;
+    left: -40px;
+    margin-top: 10px;
+  }
+  .card4 {
+    position: relative;
+    top: 7px;
+  }
+  .image4 img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 15px;
+  }
+  .title4 {
+    position: relative;
+    left: 25px;
+    bottom: 13px;
+  }
+  .description4 {
+    width: 120px;
+    position: absolute;
+    right: -25px;
+    top: 72px;
+  }
+  .page2 > .decor {
+    position: relative;
+    left: 630px;
+    top: 160px;
+  }
+  .decor img {
+    width: 100px;
+    height: 100px;
+  }
+  .page3 {
+    position: relative;
+    bottom: 335px;
+  }
+  .page3 > .category h5 {
+    font-size: 14px;
+  }
+  .page3 > .category h1 {
+    font-size: 40px;
+  }
+  .destinations-container {
+    width: 100%;
+    height: 330px;
+    gap: 25px;
+  }
+  .destination {
+    margin-top: 10px;
+    height: 90%;
+    width: 195px;
+  }
+  .destination-image {
+    width: 292px;
+    margin-left: 20px;
+  }
+  .destination-content {
+    width: 100%;
+    height: 22%;
+    position: relative;
+    bottom: 140px;
+    left: -1px;
+  }
+  .price {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  .destination-content {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .price {
+    padding-top: 0px;
+  }
+  .text {
+    padding-top: 5px;
+  }
+  .decorefordestination3 img {
+    position: absolute;
+    bottom: -30px;
+    right: 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .text img {
+    margin-top: 5px;
+    width: 13.25px;
+    height: 13.25px;
+  }
+  .text p {
+    font-size: 11px;
+    margin-left: 20px;
+  }
+  .page4 {
+    position: relative;
+    bottom: 400px;
+  }
+  .page4 > .title h5 {
+    font-size: 15px;
+    margin-left: 130px;
+  }
+  .page4 > .title h1 {
+    font-size: 30px;
+    line-height: 44.5px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 115px;
+  }
+  .logolist {
+    position: relative;
+    bottom: 70px;
+  }
+  .logo img {
+    width: 33px;
+  }
+  .logo {
+    padding: 35px;
+    margin-left: 90px;
+    width: 295px;
+    height: 65px;
+  }
+  .logo > .title {
+    position: relative;
+    left: 45px;
+    bottom: 41px;
+    font-size: 11px;
+  }
+  .logo > .description {
+    position: relative;
+    top: -54px;
+    left: 45px;
+    width: 230px;
+    line-height: 14px;
+    font-size: 9px;
+  }
+  .page4contentright {
+    width: 315px;
+    height: 280px;
+    position: relative;
+    bottom: 750px;
+    left: 380px;
+  }
+  .tripcardone {
+    width: 240px;
+    height: 280px;
+  }
+  .tripcardone img {
+    width: 200px;
+    height: 110px;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  .triptitleh3 {
+    width: 134px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 22.41px;
+    position: relative;
+    bottom: 10px;
+  }
+  .date {
+    font-size: 10px;
+    line-height: 19.92px;
+    margin-left: 30px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 20px;
+  }
+  .options img {
+    width: 80px;
+    height: 36px;
+    position: relative;
+    bottom: 40px;
+  }
+  .building {
+    width: 135px;
+    height: 65px;
+    position: relative;
+    bottom: 50px;
+  }
+  .building img {
+    width: 13px;
+    height: 13px;
+  }
+  .peoplegoing {
+    margin-top: 23px;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .heart img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 170px;
+  }
+  .tripcardtwo {
+    width: 163px;
+    height: 89px;
+    background-color: white;
+    position: absolute;
+    bottom: 45px;
+    left: 152px;
+  }
+  .tripcardtwo img {
+    width: 40px;
+    height: 40px;
+    margin-left: 7px;
+    margin-top: 10px;
+  }
+  .ongoing {
+    width: 58px;
+    height: 17px;
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+  }
+  .rometitleh3 {
+    font-size: 12px;
+    width: 100px;
+    position: absolute;
+    bottom: 35px;
+    right: 10px;
+  }
+  .completed {
+    font-size: 10px;
+    margin-left: 52px;
+  }
+  .howmuchcompleted img {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    width: 80px;
+    height: 5px;
+  }
+  .page5 {
+    width: 1165px;
+    height: 356px;
+    position: relative;
+    bottom: 630px;
+  }
+  .page5 > .title h5 {
+    font-size: 13px;
+    margin-left: 65px;
+  }
+  .page5 > .title h1 {
+    font-size: 32px;
+    line-height: 40.5px;
+    width: 300px;
+    height: 100px;
+    margin-left: 55px;
+  }
+  .punctetrei img {
+    margin-top: 40px;
+    margin-left: 75px;
+    width: 65px;
+  }
+  .page5right {
+    position: relative;
+    left: -25px;
+    background-color: white;
+    bottom: 195px;
+    width: 369px;
+    height: 246px;
+  }
+  .profile-image img {
+    width: 45px;
+  }
+  .blog-description {
+    width: 301px;
+    height: 130px;
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+  }
+  .mike {
+    font-size: 12px;
+    line-height: 27px;
+    margin-top: 25px;
+  }
+  .mike-info {
+    font-size: 10px;
+    line-height: 21px;
+  }
+  .paragraf-description {
+    width: 242px;
+    height: 56px;
+    font-size: 10px;
+    line-height: 22px;
+  }
+  .blog-bottom {
+    width: max-content;
+    position: relative;
+    left: 85px;
+    bottom: 20px;
+  }
+  .vector {
+    position: absolute;
+    left: 350px;
+    top: 100px;
+  }
+  .page5 > .logos {
+    width: 1120px;
+    position: relative;
+    bottom: 150px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .page5 > .logos img {
+    width: 700px;
+  }
+  .page6 {
+    position: relative;
+    bottom: 570px;
+    width: 100%;
+    height: 440px;
+  }
+  .subscribe {
+    padding: 30px;
+    width: 670px;
+    height: 307px;
+  }
+  .maskgroup img {
+    position: relative;
+    width: 261px;
+    height: 180px;
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+  .maskgroup2 img {
+    width: 261px;
+    height: 180px;
+  }
+  .email {
+    width: 321px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+  }
+  .group {
+    display: flex;
+    width: max-content;
+    margin: 10px auto;
+    position: absolute;
+    top: 170px;
+    right: 80px;
+  }
+  .iconemail {
+    margin-top: 3px;
+    padding: 15px;
+  }
+  .email input {
+    width: 421px;
+    height: 50px;
+  }
+  button.subscribesvg {
+    border: none;
+    width: 153px;
+    height: 53px;
+    font-size: 13px;
+  }
+  .content {
+    width: 581px;
+    height: 108px;
+  }
+  .content h1 {
+    font-size: 20px;
+    line-height: 38px;
+    position: absolute;
+    top: 30px;
+  }
+  .message {
+    position: relative;
+    left: 600px;
+    top: -30px;
+  }
+  .footer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 535px;
+  }
+  .companydesc h2 {
+    font-size: 30px;
+    line-height: 66px;
+    margin-left: 35px;
+  }
+  .companydesc p {
+    width: 147px;
+    height: 48px;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  .companydesc {
+    margin-left: 25px;
+  }
+  .navcolumns {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    margin-top: 22px;
+    left: 50px;
+    width: 460px;
+    height: max-content;
+  }
+  .footer-content h4 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .footer-content li {
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .outbound {
+    position: relative;
+    left: 100px;
+    top: 25px;
+    width: 250px;
+    height: max-content;
+  }
+  .social img {
+    width: 40px;
+    display: inline-block;
+  }
+  .discover img {
+    width: 70px;
+  }
+  .discover p {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .copyright {
+    width: 340px;
+    height: 20px;
+    position: relative;
+    top: 170px;
+    right: 300px;
+    font-size: 10px;
+  }
+}

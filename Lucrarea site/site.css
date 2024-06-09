@@ -1,0 +1,725 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-familyone {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.font-familytwo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.font-familythree {
+  font-family: "Volkhov", sans-serif;
+  font-weight: 700;
+}
+.colorcustom {
+  color: rgba(94, 98, 130, 1);
+}
+.colorsemi {
+  color: rgba(24, 30, 75, 1);
+}
+.color {
+  color: rgba(132, 130, 154, 1);
+}
+.colorwhite{
+  color: white;
+}
+.backgroundwhite{
+  background-color: white;
+}
+.colored{
+  color: rgba(223, 105, 81, 1);
+}
+.backgrounddecore{
+  background-color: rgba(255, 241, 218, 1);
+}
+.backgroundyellow{
+  background: rgba(241, 165, 1, 1);
+}
+.backgroundred{
+ background-color:rgba(223, 105, 81, 1);
+}
+.backgroundsub{
+  background-color: rgb(245, 242, 253);
+}
+
+body{
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  z-index: 2;
+  background-color: transparent;
+}
+.jadoologo {
+  width: 130px;
+  position: relative;
+  left: 120px;
+  top: 35px;
+}
+.nav li {
+  display: flex;
+  padding: 0px 30px;
+  background-color: transparent;
+}
+
+.nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  margin: 0px 0px 0px 350px;
+}
+.nav #border {
+  border: 1px solid black;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+select {
+  font-size: 17px;
+  border: none;
+  margin: 0px 25px;
+}
+.page1 {
+  width: 100%;
+  height: 764px;
+  position: relative;
+}
+.page1 > .image > .travall {
+  width: 783px;
+  height: 764px;
+  position: relative;
+  z-index: 1;
+  left: 430px;
+}
+.page1 > .image > .decorepage1 {
+  position: absolute;
+  top: -95px;
+  right: 0;
+}
+.page1 > .desc {
+  position: relative;
+  width: 630px;
+  height: 535px;
+  bottom: 650px;
+  left: 100px;
+}
+.page1 > .desc > .tag {
+  font-size: 18px;
+}
+.page1 > .desc > .heading p {
+  font-size: 84px;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  width: 600px;
+  position: relative;
+  z-index: 15;
+}
+.heading img {
+  position: absolute;
+  top: 95px;
+  right: 25px;
+}
+.page1 > .desc > .p {
+  margin-top: 15px;
+  width: 413px;
+  line-height: 30px;
+}
+.cta {
+  margin-top: 15px;
+  width: 379px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.cta > button {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+.play button{
+  border: none;
+  position: relative;
+  bottom: 10px;
+}
+.play h5 {
+  position: relative;
+  left: 100px;
+  bottom: 95px;
+}
+.page2 > .decor {
+  position: relative;
+  left: 1050px;
+  top: 120px;
+  width: 153px;
+}
+.page2 > .category > h5 {
+  text-align: center;
+  font-size: 18px;
+}
+.page2 > .category > h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 55px;
+}
+.card2 {
+  position: relative;
+  z-index: 4;
+  left: 26px;
+  bottom: 15px;
+  box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0),    0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01),0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01),0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02),0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.card3 {
+  margin-left: 35px;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  border-radius: 36px;
+}
+.left-part {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px 0px 10px 0px;
+  position: absolute;
+  left: -30px;
+  bottom: -35px;
+  z-index: -1;
+}
+.title h1 {
+  position: relative;
+  bottom: 20px;
+  font-size: 17px;
+  margin-top: 30px;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 85vw;
+  margin: 0 auto;
+}
+.image2 img {
+  position: relative;
+  bottom: -20px;
+  left: 70px;
+  width: 125px;
+  height: 125px;
+}
+.titile,
+.description {
+  text-align: center;
+  width: 160px;
+  line-height: 26px;
+}
+.title2 h1{
+  margin: 40px 0px 0px 80px;
+}
+.description2 {
+  margin: 0 auto;
+  position: relative;
+  bottom: -5px;
+  line-height: 26px;
+}
+.title3,
+.description3 {
+  width: 181px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 26px;
+}
+.card4 {
+  position: relative;
+  top: 7px;
+}
+.title4,
+.description4 {
+  width: 181px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 26px;
+}
+.page3 {
+  margin-top: 120px;
+  margin-bottom: 190px;
+}
+.page3 > .category > h5 {
+  text-align: center;
+  font-size: 18px;
+}
+.page3 > .category > h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.destinations-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.destination {
+  width: 23%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.destination-image {
+  width: 425px;
+  position: absolute;
+  left: -70px;
+  top: 0;
+  z-index: 2;
+}
+.destination-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 20%;
+  top: 20px;
+}
+.price {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.destination-content {
+  font-size: 16px;
+  padding: 15px;
+}
+.price {
+  padding-top: 10px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.decorefordestination3 {
+  position: absolute;
+  bottom: 25px;
+  left: 250px;
+}
+.text p {
+  margin-left: 20px;
+}
+.page4 {
+  position: relative;
+  right: 65px;
+}
+.page4 > .title h5 {
+  font-size: 18px;
+  margin-left: 195px;
+}
+.page4 > .title h1 {
+  font-size: 50px;
+  width: 500px;
+  height: 130px;
+  margin-left: 195px;
+}
+.logo {
+  padding: 45px;
+  margin-left: 140px;
+  width: 435px;
+  height: 65px;
+}
+.logo > .title {
+  position: relative;
+  left: 65px;
+  bottom: 60px;
+}
+.logo > .description-paragraf {
+  position: relative;
+  left: 65px;
+  bottom: 62px;
+  width: 327px;
+}
+.page4contentright {
+  width: 485px;
+  position: relative;
+  bottom: 400px;
+  left: 700px;
+}
+.tripcardone {
+  width: 370px;
+  height: 400px;
+  box-shadow: 0px 1.85px 3.15px rgba(0, 0, 0, 0),  0px 10px 7px rgba(0, 0, 0, 0.01), 0px 40px 26px rgba(0, 0, 0, 0.01);
+}
+.tripcardone img {
+  width: 321px;
+  border-radius: 24px 0px 0px 0px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.triptitleh3 {
+  width: 134px;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.date {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.options img {
+  width: 140px;
+}
+.building {
+  width: 175px;
+  display: flex;
+  flex-direction: row;
+}
+.building img {
+  width: 16px;
+}
+.peoplegoing {
+  margin-top: 23px;
+  margin-left: 5px;
+}
+.heart img {
+  width: 20px;
+  position: absolute;
+  bottom: 25px;
+  right: 150px;
+}
+.tripcardtwo {
+  width: 263px;
+  height: 129px;
+  position: absolute;
+  bottom: 45px;
+  left: 220px;
+  box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0),  0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01),0px 20px 13px 0px rgba(0, 0, 0, 0.01),0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01),0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02),0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.tripcardtwo img {
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 7px;
+  margin-top: 7px;
+}
+.ongoing {
+  width: 58px;
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 65px;
+}
+.rometitleh3 {
+  font-size: 17px;
+  position: absolute;
+  bottom: 75px;
+  right: 85px;
+}
+.completed {
+  font-size: 14px;
+  margin-left: 65px;
+}
+.howmuchcompleted img {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  width: 156px;
+}
+.page5 {
+  width: 100%;
+  height: 356px;
+  position: relative;
+  bottom: 275px;
+}
+.page5 > .title,
+.punctetrei {
+  margin-left: 95px;
+}
+.page5 > .title h5 {
+  font-size: 18px;
+}
+.page5 > .title h1 {
+  font-size: 50px;
+  width: 500px;
+}
+.punctetrei img {
+  margin-top: 70px;
+}
+.page5right {
+  position: relative;
+  left: 290px;
+  bottom: 260px;
+  width: 669px;
+  height: 356px;
+  margin: 0 auto;
+}
+.blog-description {
+  width: 541px;
+  height: 200px;
+  position: relative;
+  left: 70px;
+  box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0.0048),0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.0079),0px 20px 13px 0px rgba(0, 0, 0, 0.01),0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.0121),0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.0152),0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.mike {
+  font-size: 17px;
+  margin-top: 25px;
+}
+.mike-info {
+  font-size: 14px;
+}
+.p-description {
+  width: 402px;
+  font-size: 15px;
+  line-height: 32px;
+}
+.blog-bottom {
+  width: max-content;
+  position: relative;
+  left: 120px;
+  bottom: 20px;
+}
+.vector {
+  position: absolute;
+  left: 620px;
+  top: 150px;
+}
+.page5 > .logos {
+  width: 1080px;
+  position: relative;
+  bottom: 200px;
+  margin: 0 auto;
+}
+.page6 {
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+.subscribe {
+  padding: 30px;
+  width: 1170px;
+  position: relative;
+  margin: 0 auto;
+  bottom: 270px;
+  border-radius: 20px 129px 20px 20px;
+}
+.maskgroup {
+  position: relative;
+  z-index: 1;
+  top: 235px;
+  right: 35px;
+}
+.maskgroup2 {
+  position: absolute;
+  z-index: 3;
+  top: 110px;
+  right: 55px;
+  opacity: 10%;
+}
+.email {
+  width: 421px;
+  height: 64px;
+  display: flex;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  margin: 100px auto;
+  gap: 30px;
+  position: relative;
+  z-index: 10;
+}
+.iconemail {
+  padding: 22px 10px 0px 15px;
+}
+.email input {
+  width: 421px;
+  border: none;
+  outline: none;
+}
+button.subscribesvg {
+  border: none;
+  width: 173px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+}
+.content h1 {
+  font-size: 33px;
+  line-height: 54px;
+  text-align: center;
+  width: 881px;
+  margin: 70px auto;
+}
+.message {
+  position: absolute;
+  z-index: 10;
+  left: 1120px;
+  top: 0px;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.companydesc h2 {
+  font-size: 44px;
+  position: relative;
+  right: 30px;
+  margin-bottom: 20px;
+}
+.companydesc p {
+  width: 207px;
+  font-size: 13px;
+  text-align: justify;
+}
+.navcolumns {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 22px;
+  left: 100px;
+}
+.footer-content h4 {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.footer-content li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 32px;
+}
+.outbound {
+  position: relative;
+  left: 220px;
+  top: 10px;
+}
+.discover p {
+  margin: 15px 0px 15px 0px;
+}
+.copyright {
+  height: 20px;
+  position: relative;
+  top: 210px;
+  right: 420px;
+  font-size: 14px;
+}
+
+
+@media (max-width:1210px) {
+  .page1 > .image > .travall {
+    width: 700px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+  }
+  .page1 > .desc {
+    position: relative;
+    width: 530px;
+    height: 535px;
+    bottom: 650px;
+    left: 100px;
+    margin-top: 150px;
+  }
+
+  .page1 > .desc > .heading p {
+    font-size: 64px;
+    width: 400px;
+  }
+}
+
+@media (max-width:1210px) {
+  .page1 > .image > .travall {
+    width: 700px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+  }
+  .page1 > .desc {
+    position: relative;
+    width: 530px;
+    height: 535px;
+    bottom: 650px;
+    left: 100px;
+    margin-top: 150px;
+  }
+
+  .page1 > .desc > .heading p {
+    font-size: 64px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .page1 > .image > .travall {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+  }
+  .page1 > .desc {
+    position: relative;
+    width: 530px;
+    height: 535px;
+    bottom: 650px;
+    left: 100px;
+    margin-top: 250px;
+  }
+
+  .page1 > .desc > .heading p {
+    font-size: 64px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .page1 > .image > .travall {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
+  }
+  .page1 > .desc {
+    margin-top: 30px;
+  }
+
+
+  .travall, .desc,.image{
+    margin-left: 50px;
+  }
+
+  .desc img{
+    display: none;
+  }
+
+  .desc h5{
+    display: none;
+  }
+}
